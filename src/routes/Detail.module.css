@@ -1,0 +1,38 @@
+.link {
+  display: block;
+  padding: 0 50px;
+  background-color: black;
+  line-height: 50px;
+  color: white;
+}
+
+.link::before {
+  content: '← ';
+}
+
+.details {
+  padding: 50px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+  line-height: 1.5;
+  font-size: 42px;
+}
+
+.description {
+  width: 500px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.description dl {
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) 2fr;
+}
+
+.description dt,
+.description dd {
+  padding: 5px 0;
+}
